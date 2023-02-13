@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Convertidor Multifuncional</string>
+    <string-array name="monedas">
+        <item>Dolar</item>
+        <item>Quetzal</item>
+        <item>Lempira</item>
+        <item>Cordoba</item>
+        <item>Colon CR</item>
+        <item>Colon SV</item>
+        <item>Euro</item>
+        <item>Peso Colombiano</item>
+    </string-array>
+
+    <string-array name="Masa">
+        <item>Libra</item>
+        <item>Kilogramo</item>
+        <item>Gramo</item>
+        <item>Miligramo</item>
+        <item>Onza</item>
+        <item>Microgramo</item>
+        <item>Stone</item>
+        <item>Decagramo</item>
+        <item>Toneladas</item>
+    </string-array>
+
+    <string-array name="Volumen">
+        <item>Litros</item>
+        <item>Mililitros</item>
+        <item>Cuarto</item>
+        <item>Taza</item>
+        <item>Onza Liquida</item>
+        <item>Galon</item>
+        <item>Pinta</item>
+        <item>Cucharada</item>
+        <item>Metro Cubico</item>
+        <item>Centimetro Cubico</item>
+    </string-array>
+
+    <string-array name="Tiempo">
+        <item>Minutos</item>
+        <item>Microsegundo</item>
+        <item>Milisegundo</item>
+        <item>segundos</item>
+        <item>Horas</item>
+        <item>Dias</item>
+        <item>Semanas</item>
+        <item>Mes</item>
+        <item>Año</item>
+        <item>Decada</item>
+    </string-array>
+
+    <string-array name="Longitud">
+        <item>Metro</item>
+        <item>Kilometro</item>
+        <item>Centimetros</item>
+        <item>Milimetros</item>
+        <item>Millas</item>
+        <item>Pie</item>
+        <item>Yarda</item>
+        <item>Pulgada</item>
+        <item>Milla Nautica</item>
+        <item>Micron</item>
+    </string-array>
+
+    <string-array name="Almacenamiento">
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Kibibyte</item>
+        <item>Megabyte</item>
+        <item>Kilobyte</item>
+        <item>Mebibyte</item>
+        <item>Gigabyte</item>
+        <item>Gibibyte</item>
+        <item>Terabyte</item>
+        <item>Tebibyte</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="TransferData">
+        <item>Bit por segundo</item>
+        <item>Kilobit por segundo</item>
+        <item>Kilobyte por segundo</item>
+        <item>Kibibit por segundo</item>
+        <item>Megabit por segundo</item>
+        <item>Megabyte por segundo</item>
+        <item>Mebibit por segundo</item>
+        <item>Gigabit por segundo</item>
+        <item>Gigabyte por segundo</item>
+        <item>Terabyte por segundo</item>
+    </string-array>
+</resources>

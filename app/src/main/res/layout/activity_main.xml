@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.josee.Convertidor.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-21dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:text="           CONVERSORES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnMonedas"
+        android:layout_width="158dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:onClick="abrir_monedas"
+        android:text="Monedas" />
+
+    <Button
+        android:id="@+id/btnMasa"
+        android:layout_width="160dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="38dp"
+        android:background="#0035FC"
+        android:onClick="masa"
+        android:text="Masa"
+        app:icon="@color/black"
+        app:iconTint="#1C35BF"
+        app:strokeColor="#0E26C3" />
+
+    <Button
+        android:id="@+id/btnVolumen"
+        android:layout_width="177dp"
+        android:layout_height="71dp"
+        android:layout_alignStart="@+id/btnMonedas"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="abrir_volumen"
+        android:text="Volumen" />
+
+    <Button
+        android:id="@+id/btnlongitud"
+        android:layout_width="171dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="abrir_longitud"
+        android:text="Longitud" />
+
+    <Button
+        android:id="@+id/btnAlmacenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="370dp"
+        android:onClick="abrir_almacenamiento"
+        android:text="Almacenamiento" />
+
+    <Button
+        android:id="@+id/btnTiempo"
+        android:layout_width="167dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:onClick="abrir_tiempo"
+        android:text="Tiempo" />
+
+    <Button
+        android:id="@+id/btnTransD"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="480dp"
+        android:onClick="abrir_transfer"
+        android:text="Transferencia de Datos" />
+</RelativeLayout>
